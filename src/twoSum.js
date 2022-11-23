@@ -3,7 +3,7 @@
 // no debes de usar el mismo índice dos veces.
 
 const twoSum = (nums, target) => {
-  // Escribe tu código aquí
+    
 }
 
 export default twoSum
