@@ -4,7 +4,6 @@
 const isPalindrome = (number) => {
     const numero = String(number)
     const numeroReverse = numero.split("").reverse().join("")
-    console.log(numeroReverse)
     if(numeroReverse === numero){
         return true
     }

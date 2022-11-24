@@ -9,7 +9,11 @@
 */
 
 const concatenarStrings = (a, b) => {
-  
+    if(a.search(b) !== -1){
+        return b + a
+    }else {
+        return a + b
+    }
 }
 
 export default concatenarStrings

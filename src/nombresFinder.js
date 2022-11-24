@@ -7,7 +7,18 @@
 // 🚧 Ten cuidado con los espacios en blanco
 
 const nombresFinder = (string, inicial) => {
-  
+    
+    let names = string.split(",")
+    let res = [];
+    
+    names.forEach(name => {
+        if(name.trim().startsWith(inicial))
+        {
+            res.push(name.trim());
+        }
+    });
+    
+    return res;
 }
 
 export default nombresFinder

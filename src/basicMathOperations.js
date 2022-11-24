@@ -6,7 +6,10 @@
 // Tipp: ten en cuenta el orden
 
 const basicMathOperations = (a, b, c, d, e, f) => {
-  
+    let resp = a + b
+    resp -= c
+    resp = (resp * d) / e
+    return resp ** f
 }
 
 export default basicMathOperations

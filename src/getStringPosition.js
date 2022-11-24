@@ -2,7 +2,7 @@
 // No puedes usar ningún método de string
 
 const getStringPosition = (string, position) => {
-  return string[position]
+    return string[position]
 }
 
 export default getStringPosition
