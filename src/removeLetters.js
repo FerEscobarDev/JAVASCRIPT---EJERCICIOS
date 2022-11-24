@@ -3,7 +3,8 @@
 // La function recibe como primer paramtro un string y como segundo parametro el numero de letras que se desean remover
 
 const removeLetters = (str, number) => {
-  
+    let res = str.slice(number);
+    return res;
 }
 
 export default removeLetters

@@ -5,7 +5,11 @@
 // Ejemplo: splitNumbers(123) => [1, 2, 3]
 
 const splitNumbers = (number) => {
-  
+    let a = String(number).split('');
+    let res = a.map( num => {
+        return Number(num);
+    });
+    return res;
 }
 
 export default splitNumbers
